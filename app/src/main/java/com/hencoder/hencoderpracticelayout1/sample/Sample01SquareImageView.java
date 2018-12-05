@@ -2,11 +2,11 @@ package com.hencoder.hencoderpracticelayout1.sample;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
-import android.widget.ImageView;
 
 
-public class Sample01SquareImageView extends ImageView {
+public class Sample01SquareImageView extends AppCompatImageView {
     public Sample01SquareImageView(Context context) {
         super(context);
     }
